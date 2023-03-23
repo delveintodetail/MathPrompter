@@ -109,13 +109,18 @@ if len(email_input.split(" ")) > 1000:
     st.stop()
 
 
+
+st.markdown("###### Two problem samples")
+st.write("######### Q: Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make?\n")
+
+st.write("######### Q: Each chocolate bar in a box cost $3. If a box had 9 bars total and Wendy sold all but 3 bars, how much money would she have made?")
+
+
+
 st.markdown("### The result is:")
 
 
-st.markdown("#### Two problem samples")
-st.write("Q: Jerry was helping the cafeteria workers pick up lunch trays, but he could only carry 8 trays at a time. If he had to pick up 9 trays from one table and 7 trays from another, how many trips will he make?\n")
 
-st.write("Q: Each chocolate bar in a box cost $3. If a box had 9 bars total and Wendy sold all but 3 bars, how much money would she have made?")
 # Define a function to convert a digit to a letter
 def digit_to_letter(match):
     global mappings
