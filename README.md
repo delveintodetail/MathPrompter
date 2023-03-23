@@ -12,3 +12,5 @@ This demo is not a strict implementation of the MathPrompter, it is only a demo 
 ### Reference:
 
 [1] Imani, Shima, Liang Du, and Harsh Shrivastava. "MathPrompter: Mathematical Reasoning using Large Language Models." arXiv preprint arXiv:2303.05398 (2023).
+
+Paper link: [here][https://arxiv.org/pdf/2303.05398.pdf]
