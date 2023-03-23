@@ -16,7 +16,7 @@ openai_api_key = os.environ["openai_api_key"]
 
 
 template = """
-    Your goal is to Write a mathematical equation and generate the answer format
+    Your goal is to write a mathematical equation and generate the answer format
 starting with 'output ='. 
 
   Below is an example,
@@ -40,7 +40,7 @@ Mapping: A:10, B:2, C:8
 
 
 template1 = """
-Your goal is to Write a Python function that return the value to the variable answer.
+Your goal is to write a Python function that return the value to the variable answer.
 
 An example is,
 input: at a restaurant, each adult meal costs A and kids eat free. if a group of B people
@@ -99,7 +99,7 @@ st.header("MathPrompt")
 
 
 def get_text():
-    input_text = st.text_area(label="Problem", label_visibility='collapsed', placeholder="Your Email...", key="your problem")
+    input_text = st.text_area(label="Problem", label_visibility='collapsed', placeholder="Input your problem...", key="your problem")
     return input_text
 
 email_input = get_text()
