@@ -155,3 +155,5 @@ if email_input:
     if output == answer:
         final_output = "the result is " + str(answer)
         st.write(final_output)
+    else:
+        st.write("do not have answer")
