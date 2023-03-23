@@ -1,5 +1,11 @@
 # A simple implementation for MathPrompter
 
+## Algorithm framework
+
+![](method.png)
+
+
+
 You can visit the demo website [Here](https://delveintodetail-mathprompter-main-huhsr0.streamlit.app/)
 
 
