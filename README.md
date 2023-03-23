@@ -7,7 +7,7 @@ You can visit the demo website [Here](https://delveintodetail-mathprompter-main-
 
 ![An example](screenshot.png)
 
-This demo is not a strict implementation of the MathPrompter, it is only a demo for fun. To build this demo, I use LangChain, Streamlit and OpenAI API.
+This demo is not a rigorous implementation of the MathPrompter, it is only a demo for fun. To build this demo, I use LangChain, Streamlit and OpenAI API.
 
 ### Reference:
 
