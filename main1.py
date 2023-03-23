@@ -99,7 +99,7 @@ st.header("MathPrompt")
 
 
 def get_text():
-    input_text = st.text_area(label="问题", label_visibility='collapsed', placeholder="Your Email...", key="your problem")
+    input_text = st.text_area(label="Problem", label_visibility='collapsed', placeholder="Your Email...", key="your problem")
     return input_text
 
 email_input = get_text()
@@ -109,7 +109,7 @@ if len(email_input.split(" ")) > 1000:
     st.stop()
 
 
-st.markdown("### 计算结果:")
+st.markdown("### The result is:")
 
 
 # Define a function to convert a digit to a letter
