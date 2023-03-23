@@ -7,11 +7,7 @@ import re
 
 
 
-
-st.write(
-    "Has environment variables been set:",
-    os.environ["openai_api_key"] = st.secrets["password"]
-)
+os.environ["openai_api_key"] = st.secrets["password"]
 
 
 openai_api_key = os.environ["openai_api_key"]
